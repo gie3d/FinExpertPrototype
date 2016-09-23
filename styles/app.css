@@ -56,6 +56,15 @@ body, html {
 	border-right-width: 0.5px;
 	border-right-color: #dddddd;
 	border-bottom-style: none;
+
+}
+
+.kasper {
+	padding: 0px 0px 0px 0px; 
+	background-image: url('/images/kasper.jpg'); 
+	background-size: contain;
+	height: 250px;
+	background-repeat: no-repeat;
 }
 
 

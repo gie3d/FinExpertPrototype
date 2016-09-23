@@ -26,4 +26,47 @@ body, html {
 }
 
 
+.tab-medium {
+	height: 50px;
+	line-height: 50px;
+	color: #aaaaaa;
+	text-align: center;
+	background-color: #ffffff;
+	border-left-style: solid;
+	border-left-width: 0.5px;
+	border-left-color: #dddddd;
+	border-right-style: solid;
+	border-right-width: 0.5px;
+	border-right-color: #dddddd;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #dddddd;
+}
+
+.tab-medium.tab-active {
+	height: 50px;
+	line-height: 50px;
+	color: #000000;
+	text-align: center;
+	background-color: #f5f5f5;
+	border-left-style: solid;
+	border-left-width: 0.5px;
+	border-left-color: #dddddd;
+	border-right-style: solid;
+	border-right-width: 0.5px;
+	border-right-color: #dddddd;
+	border-bottom-style: none;
+
+}
+
+.kasper {
+	padding: 0px 0px 0px 0px; 
+	background-image: url('/images/kasper.jpg'); 
+	background-size: contain;
+	height: 250px;
+	background-repeat: no-repeat;
+}
+
+
+
 

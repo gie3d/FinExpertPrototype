@@ -12,6 +12,8 @@ var Utils = (function() {
 					e.preventDefault();
 					window.history.back();
 				});
+			} else if (params.backLink === undefined) {
+				$('#navtext_backicon').hide();
 			}
 
 			$('#navtext_title').text(params.title);
